@@ -1,33 +1,32 @@
 package JavaClassesMethodsFieldsConstructors;
 
 public class Employee {
-	
-	  String firstName;
-	    String lastName;
-	    byte age;
-	    char gender;
-	    static final String EMPLOYER_NAME = "Google";
 
-	    public Employee() {
-	        this("Will", "Smith", (byte) 55, 'M');
-	        System.out.println("Object is getting created in Default Constructor.....");
-	    }
+	String firstName;
+	String lastName;
+	byte age;
+	char gender;
+	static final String EMPLOYER_NAME = "Google";
 
-	    public Employee(String firstName, String lastName, byte age, char gender) {
-	        this.firstName = firstName;
-	        this.lastName = lastName;
-	        this.age = age;
-	        this.gender = gender;
-	        System.out.println("Object is getting created in overloaded Constructor.....");
-	    }
+	public Employee() {
+		this("Will", "Smith", (byte) 55, 'M');
+		System.out.println("Object is getting created in Default Constructor.....");
+	}
 
-	    public byte getAge( ) {
-	        return age;
-	    }
+	public Employee(String firstName, String lastName, byte age, char gender) {
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.age = age;
+		this.gender = gender;
+		System.out.println("Object is getting created in overloaded Constructor.....");
+	}
 
-	    public char getGender( ) {
-	        return gender;
-	    }
-	
+	public byte getAge() {
+		return age;
+	}
+
+	public char getGender() {
+		return gender;
+	}
 
 }
