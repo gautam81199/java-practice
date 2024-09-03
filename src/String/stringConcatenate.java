@@ -8,7 +8,7 @@ public class stringConcatenate {
         String name = "Alex ";
         String message = "Welcome to the elite Java Club!";
         
-        // Step 2: Concatenate the strings into one coherent message
+        // Step 2: Concatenate the string
         String personalizedMessage = greeting + name + message;
         
         // Step 3: Print the concatenated message to the console
