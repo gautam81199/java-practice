@@ -1,4 +1,4 @@
-//Fibonacci means 0,1,1,2,3,5,8,11,19
+//Fibonacci means sum of previous two numbers 0,1,1,2,3,5,8,11,19
 
 package Interview_question;
 

@@ -1,5 +1,7 @@
 package Interview_question;
 
+//palindrome number means it remains same when its digits are reverse. eg- 121, 1331
+
 public class palindrome {
 	public static void main(String[] args) {
 
