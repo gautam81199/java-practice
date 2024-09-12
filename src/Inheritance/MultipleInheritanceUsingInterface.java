@@ -13,7 +13,7 @@ interface Pet {
 }
 
 //Implement the Interfaces in a Class
-class Dog1 implements Animal1, Pet {
+class Dog1 implements Animal Pet {
 
 	public void eat() {
 		System.out.println("The Dog Eats");
